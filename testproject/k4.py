@@ -22,7 +22,7 @@ submit_btn = driver.find_element_by_id("submit")
 result = driver.find_element_by_id("result")
 
 test_data = [""]
-# A "" és '' miatt nehéz ebből használható adatot kreálni, talán a """x""" működhet:
+# A "" és '' miatt nehéz ebből használható adatot kreálni, talán a """x""" működhet, emiatt jelez hibát a szintaktikára:
 reference_data = ["""!'#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~""",
                   ["+", "-"]]
 
